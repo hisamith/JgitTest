@@ -31,9 +31,9 @@ public class CloneAndCommit {
         GitAgent client = new JGitAgent();
 
         Console console = System.console();
-        console.printf("Please enter your username: ");
+        console.printf("Please enter your git username: ");
         String username = console.readLine();
-        console.printf("Please enter your password: ");
+        console.printf("Please enter your git password: ");
         char[] passwordChars = console.readPassword();
         String password = new String(passwordChars);
 
